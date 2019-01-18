@@ -1,0 +1,74 @@
+html { 
+	overflow-x: hidden; 
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+}
+a {
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+nav {
+	background-color: #fff;
+}
+nav .navbar-nav {
+	font-family: 'Playfair Display', serif;
+}
+
+nav .nav-item {
+ padding-right: 100px;
+}
+nav .nav-item:last-child {
+	padding-right: 0;
+ }
+
+.playfair {
+	font-family: 'Playfair Display', serif;
+ }
+
+p {
+	line-height: 25px;
+ }
+
+textarea {
+	 width: 100%;
+	 border-top: 0;
+	 border-left: 0;
+	 border-right: 0;
+	 outline: none;
+ }
+
+.form-control:focus{
+	box-shadow: 0 0 0 0;
+	border-bottom: 1px solid #6c757d;
+}
+
+form .form-control {
+	 border: 0;
+	 border-bottom: 1px solid #6c757d;
+	 border-radius: 0;
+	 padding: 0;
+	 padding-top: 55px;
+	 padding-bottom: 10px;
+	 font-size: 14px;
+	outline: none;
+		position: relative;
+ }
+
+form .form-control::placeholder {
+	color: grey; 
+}
+form i {
+	color: grey;
+	cursor: pointer;
+}
+
+.btn {
+	border-radius: 0;
+}
